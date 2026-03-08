@@ -13,4 +13,9 @@ public class PourcentageVenteParMarque {
     public void setPourcentage(String pourcentage) {
         this.pourcentage = pourcentage;
     }
+
+    @Override
+    public String toString() {
+        return marque + " | " + pourcentage;
+    }
 }

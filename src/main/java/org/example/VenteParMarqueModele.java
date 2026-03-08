@@ -19,4 +19,11 @@ public class VenteParMarqueModele {
     public void setNbrePiecesVendus(int nbrePiecesVendus) {
         this.nbrePiecesVendus = nbrePiecesVendus;
     }
+
+
+
+    @Override
+    public String toString() {
+        return marque + " | " + modele + " | " + nbrePiecesVendus;
+    }
 }

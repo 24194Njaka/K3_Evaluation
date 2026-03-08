@@ -13,4 +13,9 @@ public class VenteTotaleParMarque {
     public void setNbrePieceDaewoo(int nbrePieceDaewoo) {
         this.nbrePieceDaewoo = nbrePieceDaewoo;
     }
+
+    @Override
+    public String toString() {
+        return nbrePieceKia + " | " + nbrePieceDaewoo;
+    }
 }
